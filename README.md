@@ -4,7 +4,7 @@
 - git clone https://github.com/pulak-kanti/mobile-or-land-number-detection.git
 - cd mobile-or-land-number-detection
 - pip install pytest
-- python -m tytest
+- python -m pytest
 
 ### To test with manual input
 - git clone https://github.com/pulak-kanti/mobile-or-land-number-detection.git
