@@ -64,7 +64,11 @@ def isMobile(country, phone_number):
         return False
         
 
+### For manual testing change the function call value accordingly
+### function definition: isMobile(country,phone_number)
+### function definition: getExtensionNo(country, phone_number)
+
 if  __name__ == "__main__":
-    print(isMobile("ES","67134340"))
+    print(isMobile("ES","67134340"))               
 
 

@@ -10,5 +10,5 @@
 - git clone https://github.com/pulak-kanti/mobile-or-land-number-detection.git
 - cd mobile-or-land-number-detection
 - cd src
-Open app.py file and give manual input in specified section
+- Open app.py file and give manual input in specified section
 - python app.py 
