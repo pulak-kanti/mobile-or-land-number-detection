@@ -63,6 +63,7 @@ def isMobile(country, phone_number):
                 return True
         return False
         
+    return "undefined"
 
 ### For manual testing change the function call value accordingly
 ### function definition: isMobile(country,phone_number)
