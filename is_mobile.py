@@ -8,11 +8,11 @@ def write_excel_for_mobile(excel_file_path, lower_bound,upper_bound):
     while i <= upper_bound:
         country = sheet.range('C'+str(i)).value
         contact_no = sheet.range('D'+str(i)).value
-        if contact_no is None or country in None:
+        if contact_no is None or country is None:
             i+=1
             continue
-        sheet.range('D'+str(i)).value = isMobile(country,contact_no)
-        i+=1    
+        sheet.range('E'+str(i)).value = isMobile(country,contact_no)
+        i+=1
     hcp_excel.save()
     hcp_excel.close()
 
